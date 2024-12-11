@@ -11,17 +11,19 @@
 		"vscode": {
 			"extensions": [
 				"johnnymorganz.luau-lsp",
-        "evaera.vscode-rojo",
+				"evaera.vscode-rojo",
 				"johnnymorganz.stylua",
-        "tekumara.typos-vscode"
+				"tekumara.typos-vscode"
 			]
 		}
 	},
-	"forwardPorts": [34872],
+	"forwardPorts": [
+		34872
+	],
 	"portsAttributes": {
-			"34872": {
-				"label": "Rojo"
-			}
+		"34872": {
+			"label": "Rojo"
+		}
 	},
 	"postCreateCommand": "rokit install --no-trust-check",
 	"remoteUser": "root"
