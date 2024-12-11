@@ -1,0 +1,10 @@
+{
+    "rules": [
+        {
+            "rule": "remove_comments",
+            "except": [
+                "--!native"
+            ]
+        }
+    ]
+}

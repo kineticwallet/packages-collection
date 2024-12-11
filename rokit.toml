@@ -1,0 +1,5 @@
+[tools]
+darklua = "seaofvoices/darklua@0.14.1"
+luau-lsp = "johnnymorganz/luau-lsp@1.36.0"
+rojo = "rojo-rbx/rojo@7.4.4"
+stylua = "johnnymorganz/stylua@2.0.2"
