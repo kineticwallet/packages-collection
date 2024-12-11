@@ -1,1 +1,4 @@
 [default.extend-words]
+ser = "ser"
+des = "des"
+serDes = "serDes"
