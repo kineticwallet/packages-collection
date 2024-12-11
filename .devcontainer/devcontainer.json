@@ -1,0 +1,28 @@
+{
+	"name": "Roblox",
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+	"features": {
+		"ghcr.io/ryanlua/features/rojo:0.2.0": {
+			"version": "latest",
+			"toolchainManager": "rokit"
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"johnnymorganz.luau-lsp",
+        "evaera.vscode-rojo",
+				"johnnymorganz.stylua",
+        "tekumara.typos-vscode"
+			]
+		}
+	},
+	"forwardPorts": [34872],
+	"portsAttributes": {
+			"34872": {
+				"label": "Rojo"
+			}
+	},
+	"postCreateCommand": "rokit install --no-trust-check",
+	"remoteUser": "root"
+}
