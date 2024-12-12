@@ -1,3 +1,6 @@
+## v2.0.1-patch.2 (12 Dec 2024)
+- remove returning the *Signal* as frozen
+
 ## v2.0.1-patch.1 (11 Dec 2024)
 - remove documentation comments
 

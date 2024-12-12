@@ -229,8 +229,8 @@ setmetatable(Signal, {
 	end,
 })
 
-return table.freeze({
+return {
 	new = Signal.new,
 	Wrap = Signal.Wrap,
 	Is = Signal.Is,
-})
+}
